@@ -4,7 +4,7 @@ const path = require('path');
 const connectDb = require("./config/dbConnection");
 const bodyParser = require("body-parser")
 const expressBodyParser = require("express")
-connectDb();
+// connectDb();
 const app = express()
 const port = 5000;
 // parse application/x-www-form-urlencoded
